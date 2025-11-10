@@ -1,19 +1,29 @@
+# 🧠 False Image Detection  
 
+Projeto desenvolvido para a disciplina de **Processamento Digital de Imagens (PDI)**.  
+O objetivo é **treinar um classificador capaz de distinguir imagens geradas por Inteligência Artificial (IA) de imagens reais produzidas por humanos**.  
 
-# False Image Detection
+---
 
-Projeto desenvolvido para a disciplina de Processamento Digital de Imagem. O objetivo é treinar um classificador para distinguir imagens geradas por IA de imagens humanas.
+## 👥 Integrantes  
+- Bruno Vicente  
+- Celso Bezerra  
+- Gregorio de Albuquerque  
+- Henrique Azevedo  
+- Henrique Rojas  
 
-Integrantes:
-- Bruno Vicente
-- Celso Bezerra
-- Gregorio de Albuquerque
-- Henrique Azevedo
-- Henrique Rojas
+---
 
-## Descrição
-Este projeto treina e avalia uma rede neural convolucional para classificação binária (AI vs Human). O script principal é o arquivo [script.ipynb](script.ipynb) e contém a configuração, carregamento de dados, definição do modelo, treino, avaliação e previsões.
+## 📝 Descrição do Projeto  
+O projeto implementa uma **Rede Neural Convolucional (CNN)** para realizar **classificação binária** (IA vs. Humano).  
 
+O script principal é o arquivo [`script.ipynb`](script.ipynb), que contém:  
+1. **Configuração do ambiente**  
+2. **Carregamento e pré-processamento dos dados**  
+3. **Definição da arquitetura da rede**  
+4. **Treinamento do modelo**  
+5. **Avaliação de desempenho**  
+6. **Geração de previsões** 
 ## Dataset
 O modelo já foi treinado. Mas caso queira treina-lo novamente:
 Crie o diretório `dataset/` no mesmo nível de `script.ipynb`. O diretório deve conter:
